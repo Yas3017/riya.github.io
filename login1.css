@@ -1,0 +1,115 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(.//Photos/P1.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgb(41, 39, 39);
+    padding: 2px;
+    color: whitesmoke;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 226, 167);
+    /* background-color: rgb(137, 145, 160); */
+    padding: 20px;
+    text-align: center;
+}
+ 
+ nav{
+    overflow: hidden;
+    color: wheat;
+    margin-left: 310px;
+    padding: 13px;
+    font-size: 18px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+    float: left;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px 1px;
+}
+#yash{
+    font-size: 50px;
+    color: cornsilk;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(.//Photos/P6.jpg);
+    background-size: cover;
+    width: 1400px;
+    height: 500px;
+
+}
+.logobox{
+    width: 350px;
+    height: 440px;
+    background: #000;
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-105%);
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: darkgrey 5px 4px 5px 2px;
+}
+.avatar{
+    width: 100px;
+    height: 110px;
+    border-radius:50% ;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.logobox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.logobox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logobox input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.logobox input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.logobox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ddc107;
+    color: #fff;
+
+}
+.logobox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px;
+    color:darkgray;
+}

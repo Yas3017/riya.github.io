@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(.//Photos/P1.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgb(41, 39, 39);
+    padding: 2px;
+    color: whitesmoke;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 226, 167);
+    /* background-color: rgb(137, 145, 160); */
+    padding: 20px;
+    text-align: center;
+}
+ 
+ nav{
+    overflow: hidden;
+    color: wheat;
+    margin-left: 310px;
+    padding: 13px;
+    font-size: 18px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+    float: left;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px 1px;
+}
+#yash {
+    font-size: 50px;
+    color: cornsilk;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(.//Photos/P2.jpg);
+    background-size: cover;
+    width: 1350px;
+    height: 510px;
+    text-align: center;
+
+}
+#yash nav{
+     padding-left: 20%;
+     font-size: 18px;
+}
+#sldie-images{
+    overflow: hidden;
+    max-height: 70vh;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: -460px;
+    border-radius: 40px;
+    margin-bottom: 1%;
+    box-shadow: darkgrey 5px 4px 5px 2px;
+}
+
+#sldie-images img{
+    width: 100%;
+    margin-bottom: 1%;
+}
